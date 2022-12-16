@@ -8,18 +8,18 @@ body{
 }
 p,li{
    
-    font-family: 'Amiri';font-size: 22px;
+    font-family:'Amiri',sans-serif;
+    font-size: 22px;
     color: rgb(99, 101, 104);
 }
 h1,h2,h3{
-    font-family: 'Barlow Condensed';
+    font-family: 'Barlow Condensed',sans-serif;
     letter-spacing: 2px;
 }
 nav{
     width: 1400px;
 }
 .body-container{
-    margin-top: 200px;
     display: flex;
     flex-direction: column;
     margin: 20px 280px;
