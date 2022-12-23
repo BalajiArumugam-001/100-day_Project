@@ -166,7 +166,7 @@ h2 {
 .course1-content {
   text-align: center;
 }
-@media (max-width:700px) {
+@media screen and (max-width:700px) {
   .courses{
     /* grid-template-columns: 1fr 1fr; */
     display: flex;
