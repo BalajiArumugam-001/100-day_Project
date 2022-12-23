@@ -5,7 +5,6 @@ body {
   height: 100%;
   width: 100%;
   color: white;
-  font-family: 'PS Commons';
 }
 
 body p,
@@ -39,7 +38,11 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-
+.logo img{
+  margin-top: 17px;
+  height: 35px;
+  padding: 0;
+}
 .links .home {
   color: white;
   border: 1px solid #fd6228;
@@ -56,13 +59,44 @@ h2 {
 }
 
 .links img {
+  margin-left: 20px;
   height: 50px;
 }
-
-/* .links a{
+.notify{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  position: fixed;
+  right:0;
+  background-color: grey;
+  margin: 50px;
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  z-index: 15;
+  opacity: 0;
+  animation-name: notify;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+.notify p{
+  margin-left: 10px;
+}
+.notify img{
+  width: 60px;
+}
+.notify .exit{
   position: relative;
-  bottom: 20px;
-} */
+  right: 4px;
+  bottom: 48px;
+  width: 15px;
+}
+@keyframes notify{
+  0%{opacity: 1;}
+  100%{opacity: 1;}
+}
 .course-page h1 {
   text-align: center;
 }
@@ -150,7 +184,9 @@ footer .logo .heading {
   text-align: center;
   color: #fd6228;
 }
-
+footer .logo img{
+  margin-top: 25px;
+}
 footer .footer-1 {
   margin-top: 50px;
   display: flex;
