@@ -168,15 +168,36 @@ h2 {
 }
 @media screen and (max-width:700px) {
   .courses{
-    /* grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     
   }
+  .course-page h1 {
+    text-align: center;
+  }
+  
+  .course-page .search {
+    margin-left: 250px;
+  }
+  
+  .course-page input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #1f1f1f;
+    border: 1px solid #3b3838;
+    box-sizing: border-box;
+  }
+  
+  .course-page input:focus {
+    border: 1px solid #3b3838;
+    color: white;
+  }
+
   .course1-content{
     margin-top: 100px;
-  margin-left: 150px;
+  margin-left: 290px;
   }
 
 }
@@ -244,7 +265,7 @@ footer .footer-1 .contact img {
     justify-content: center; */
     /* margin-left: 600px; */
     position: relative;
-    right: 700px;
+    right: 350px;
   }
   footer{
     display: flex;
