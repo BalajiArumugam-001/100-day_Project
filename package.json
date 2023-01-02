@@ -1,0 +1,22 @@
+{
+  "name": "bitwise",
+  "version": "1.0.0",
+  "description": "My Project is all about a Tech learning platform. \r People who are new to tech are struggling to understand the concepts and take time to grab it.\r To solve this problem , I like to create all the tech concepts and implementations in my website in a structured way with articles as well as videos .You can find everything in one website.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalajiArumugam-001/100-day_Project.git"
+  },
+  "author": "BalajiArumugam-001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalajiArumugam-001/100-day_Project/issues"
+  },
+  "homepage": "https://github.com/BalajiArumugam-001/100-day_Project#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
