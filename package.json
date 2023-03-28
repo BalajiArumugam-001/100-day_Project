@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BalajiArumugam-001/100-day_Project#readme",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "mysql": "^2.18.1"
   }
 }

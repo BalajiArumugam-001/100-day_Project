@@ -39,8 +39,28 @@
     </aside>
     <!-- Article starts here -->
     <div class="body-container">
-        
+        <textarea id="html"></textarea>
+        <textarea id="css"></textarea>
+        <textarea id="js"></textarea>
+        <iframe id="output_window"></iframe>
+
     </div>
+    <script>
+       
+        
+
+        function check() {
+            let html_div = document.getElementById("html").value;
+        let css_div = document.getElementById("css").value;
+        let js_div = document.getElementById("js").value;
+        let output = document.getElementById("output_window");
+            output.contentDocument.body.innerHTML = html_div + "<style>" + css_div + "</style>";
+            output.contentWindow = eval(js_div);
+
+        }
+
+    </script>
 </body>
+
 
 </html>
